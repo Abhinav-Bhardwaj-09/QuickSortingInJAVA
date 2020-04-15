@@ -1,7 +1,6 @@
 package Quick_Sort;
 
 public class MyQuickSort {
-
     static public void QuickSort( int arr[] , int start , int end ){
         if( start < end ){
             int pivot = partition( arr , start , end );
